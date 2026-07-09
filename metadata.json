@@ -1,0 +1,8 @@
+{
+  "name": "Hoàng Yến - Landing Page Cá Nhân",
+  "description": "Landing Page giới thiệu thương hiệu cá nhân của Hoàng Yến - Chuyên viên tư vấn BĐS cao cấp tại Vinhomes Smart City & Imperia Sky Park",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
