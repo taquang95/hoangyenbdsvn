@@ -1,7 +1,7 @@
 export interface Project {
   id: string;
   name: string;
-  status: 'active' | 'sold-out';
+  status: 'active' | 'sold-out' | 'new';
   description: string;
   location: string;
   developer: string;

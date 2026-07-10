@@ -52,7 +52,7 @@ export const projectsData: Project[] = [
   {
     id: 'p2',
     name: 'Imperia Sky Park',
-    status: 'active',
+    status: 'new',
     description: 'Tổ hợp căn hộ cao cấp sở hữu tọa độ vàng trên trục đường Minh Khai. Kiến tạo không gian sống sinh thái trong lòng phố thị với vườn chân mây và bể bơi vô cực ngắm trọn sông Hồng thơ mộng.',
     location: '423 Minh Khai, Hai Bà Trưng, Hà Nội',
     developer: 'MIK Group',

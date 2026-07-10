@@ -17,7 +17,7 @@ export default function Hero() {
         className="w-full relative rounded-2xl overflow-hidden mb-0 aspect-[2.4/1] border border-white/10 group shadow-[0_8px_32px_rgba(0,0,0,0.5)] bg-premium-dark/40"
       >
         <img 
-          src="https://i.postimg.cc/766QZWMF/anh-bia-hoang-yen.png"
+          src="https://i.postimg.cc/Pfc27D5D/anh-bia-hy.jpg"
           alt="Premium Real Estate City Skyline Cover"
           referrerPolicy="no-referrer"
           fetchPriority="high"

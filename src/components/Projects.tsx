@@ -56,7 +56,7 @@ export default function Projects() {
       {/* PROJECTS LIST */}
       <div className="space-y-6">
         {projectsData.map((project, idx) => {
-          const isActive = project.status === 'active';
+          const isActive = project.status === 'active' || project.status === 'new';
           
           return (
             <motion.div
@@ -83,7 +83,12 @@ export default function Projects() {
                 
                 {/* Badge Tag */}
                 <div className="absolute top-4 left-4">
-                  {isActive ? (
+                  {project.status === 'new' ? (
+                    <span className="px-3 py-1 bg-amber-500/15 border border-amber-500/40 text-amber-400 font-mono text-[10px] uppercase font-bold rounded-full flex items-center gap-1.5 backdrop-blur-md shadow-sm">
+                      <span className="w-1.5 h-1.5 bg-amber-400 rounded-full animate-ping" />
+                      Hàng Mới
+                    </span>
+                  ) : isActive ? (
                     <span className="px-3 py-1 bg-green-500/15 border border-green-500/40 text-green-400 font-mono text-[10px] uppercase font-bold rounded-full flex items-center gap-1.5 backdrop-blur-md shadow-sm">
                       <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-ping" />
                       Đang Triển Khai
