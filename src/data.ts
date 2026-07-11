@@ -72,6 +72,22 @@ export const projectsData: Project[] = [
     image: 'https://i.postimg.cc/90shTNdv/lumiere-hanoi-seasons-garden-1.jpg',
     ctaText: 'Đăng ký nhận thông tin sớm nhất',
     priceEstimate: 'Khoảng 110 - 150 triệu/m²'
+  },
+  {
+    id: 'p4',
+    name: 'Masteri Grand Coast',
+    status: 'new',
+    description: 'Siêu phẩm căn hộ hạng sang tiếp theo của Masterise Homes tại trái tim Ocean City (Vinhomes Ocean Park 3). Sở hữu thiết kế kính viền cong Low-E duy mỹ đẳng cấp và tầm nhìn trực diện tuyệt đỉnh ôm trọn vịnh biển bốn mùa Paradise Bay.',
+    location: 'Vinhomes Ocean Park 3, Nghĩa Trụ, Văn Giang, Hưng Yên',
+    developer: 'Masterise Homes',
+    highlights: [
+      'Vị trí độc tôn kế cận Vịnh biển bốn mùa Paradise Bay & Mega Grand World',
+      'Đặc quyền đặc lợi với cụm tiện ích trong nhà đẳng cấp: Hồ bơi panorama tầng mái, phòng gym chuẩn quốc tế, rạp chiếu phim sang trọng',
+      'Tiêu chuẩn bàn giao chuẩn khách sạn 5 sao quốc tế từ các thương hiệu hàng đầu thế giới'
+    ],
+    image: 'https://i.postimg.cc/j5S88J22/V03-CT05-OVERVIEW-02.jpg',
+    ctaText: 'Đăng ký nhận bảng giá & quỹ căn ngoại giao đợt 1',
+    priceEstimate: 'Khoảng 75 - 95 triệu/m²'
   }
 ];
 

@@ -26,6 +26,14 @@ export default function InteractiveCallback() {
         case '3PN': return 6800;    // 6.8 Tỷ
         default: return 5000;
       }
+    } else if (proj === 'Masteri Grand Coast') {
+      switch (aptType) {
+        case 'Studio': return 2800; // 2.8 Tỷ
+        case '1PN': return 3800;    // 3.8 Tỷ
+        case '2PN': return 5500;    // 5.5 Tỷ
+        case '3PN': return 7800;    // 7.8 Tỷ
+        default: return 5500;
+      }
     } else { // Masterise Hà Nội Sesson Gaden
       switch (aptType) {
         case 'Studio': return 3500; // 3.5 Tỷ
@@ -191,8 +199,8 @@ Hãy gửi cho tôi bảng phân tích dòng tiền chi tiết và quỹ căn ng
                     <label className="block text-xs font-semibold text-gray-300 uppercase tracking-wider mb-2">
                       Chọn Dự Án Quan Tâm
                     </label>
-                    <div className="grid grid-cols-1 gap-2">
-                      {['Vinhomes Smart City', 'Imperia Sky Park', 'Masterise Hà Nội Sesson Gaden'].map((p) => (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                      {['Vinhomes Smart City', 'Imperia Sky Park', 'Masteri Grand Coast', 'Masterise Hà Nội Sesson Gaden'].map((p) => (
                         <button
                           key={p}
                           type="button"
