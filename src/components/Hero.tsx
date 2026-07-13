@@ -39,7 +39,7 @@ export default function Hero() {
             {/* Professional businesswoman portrait */}
             <img 
               id="hero-avatar-image"
-              src="https://i.postimg.cc/m2ffmTS1/anh-nen-hoang-yen-2.png" 
+              src="https://i.postimg.cc/9MywDqTy/anh-hoang-yen.png" 
               alt="Hoàng Yến - Chuyên viên tư vấn BĐS cao cấp" 
               referrerPolicy="no-referrer"
               fetchPriority="high"
