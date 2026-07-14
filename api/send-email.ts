@@ -29,7 +29,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     smtpUser = smtpUser.trim() + "@gmail.com";
   }
   const smtpPass = process.env.SMTP_PASS || "qvia gnrg uuzp ortc";
-  const receiverEmail = process.env.SMTP_RECEIVER || "taquang95@gmail.com";
+  const receiverEmail = process.env.SMTP_RECEIVER || "taquang95@gmail.com, Heomumim89@gmail.com";
 
   // Validate presence of credentials
   if (!smtpUser || !smtpPass) {

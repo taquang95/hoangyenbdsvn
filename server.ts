@@ -34,7 +34,7 @@ app.post("/api/send-email", async (req, res) => {
     smtpUser = smtpUser.trim() + "@gmail.com";
   }
   const smtpPass = process.env.SMTP_PASS || "qvia gnrg uuzp ortc";
-  const receiverEmail = process.env.SMTP_RECEIVER || "taquang95@gmail.com";
+  const receiverEmail = process.env.SMTP_RECEIVER || "taquang95@gmail.com, Heomumim89@gmail.com";
 
   // Check SMTP setup and alert developer/user gracefully
   if (!smtpUser || !smtpPass) {
